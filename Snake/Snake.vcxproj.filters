@@ -24,12 +24,30 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StartInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Snake.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StartInterface.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

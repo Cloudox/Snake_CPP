@@ -2,10 +2,19 @@
 //
 
 #include "stdafx.h"
+#include "StartInterface.h"
+#include "Tools.h"
+
 
 
 int main()
 {
+	setWindowSize(41, 32);
+	setColor(2);
+	StartInterface *start = new StartInterface();
+	start->printAppear();
+
+	system("pause");
     return 0;
 }
 
